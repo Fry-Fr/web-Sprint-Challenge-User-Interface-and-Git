@@ -66,6 +66,33 @@ p {
     line-height: 1.4;
 }
 
+.about-imgs button {
+    background: white;
+    border-radius: 0.5em;
+    margin: 1em;
+    padding: 0.5em;
+    width: 35%;
+}
+
+.about-imgs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+
+}
+
+.about-imgs div {
+    border-bottom: 1px dashed black;
+    padding: 0 0 2em 0;
+    margin: 1em 1em 2em;
+}
+
+.about-imgs div img {
+    align-self: stretch;
+    width: 100%;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -116,6 +143,11 @@ p {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+}
+
+.b {
+    margin-top: 1em;
+    padding-bottom: 1em;
 }
 
 .bottom-content .text-container {
